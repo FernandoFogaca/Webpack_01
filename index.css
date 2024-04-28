@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #8FBCB3; /* Verde claro */
+}
+
+.main-container {
+    display: flex; /* Tornando o container principal flexível */
+}
+
+.container, .calculadora {
+    display: flex; /* Adicionando display flex para alinhar os elementos internos */
+    background-color: #F0F0F0; /* Cinza claro */
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px; /* Espaço entre os blocos */
+    flex-direction: column; /* Direção padrão é coluna */
+    flex-basis: 0; 
+    min-width: 400px; 
+    max-width: 400px;
+    flex-grow: 1;
+
+
+}
+
+input[type="text"], input[type="number"] {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #FFFFFF; /* Branco */
+    color: #000000; /* Texto preto */
+    border: none;
+    border-radius: 5px;
+    border: #788895 1px solid;
+}
+
+button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #788895; /* Azul */
+    color: #FFFFFF; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: #788895 1px solid;
+    width: 100%;
+}
+
+.resultado {
+    background-color: #DFE6ED; 
+    color: black; /* Texto branco */
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: #788895 1px solid;
+  
+
+}
+
+#container_resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border : 1px solid #000000;
+}
